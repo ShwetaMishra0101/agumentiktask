@@ -20,7 +20,7 @@ const Login = () => {
         .then((res) => {
           if(res.data.message === "login successfull"){
             alert("login successfull")
-            navigate("/breedList")
+            navigate("/home")
           }
           else if(res.data.message==='wrong password'){
             alert("wrong password")
@@ -84,7 +84,7 @@ const Login = () => {
       </div>
       <p >
         New User 
-        <a href="/home">  Sign Up</a>
+        <a href="/"> Sign Up</a>
       </p>
     </div>
   );

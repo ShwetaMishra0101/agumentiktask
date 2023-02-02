@@ -26,7 +26,7 @@ const Events = () => {
   return (
 
     <div style={{width:"80%",margin:"auto",backgroundColor:"rgb(69, 64, 64)"}}>
-      <h1  style={{fontSize:'35px',margin:"5% 0 5% 0",color:"white"}}>Tarkam Events</h1>
+      <h1  style={{fontSize:'35px',margin:" 0 0",color:"white"}}>Tarkam Events</h1>
       
    
       <div className={styles.event_main_div}>
